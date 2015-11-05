@@ -5,6 +5,7 @@ USING_NS_CC;
 
 SecondScreen::SecondScreen()
 {
+	//test comment
 	_scene = cocos2d::Scene::create();
 	_rootNode = CSLoader::createNode("SecondScreen.csb");
 	_scene->addChild(_rootNode);
